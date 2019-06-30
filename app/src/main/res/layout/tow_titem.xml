@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/two_timg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/two_tname"
+        android:layout_toRightOf="@id/two_timg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="sdfsdfsd"
+        />
+    <TextView
+        android:id="@+id/two_ttitle"
+        android:layout_toRightOf="@id/two_timg"
+        android:layout_alignBottom="@id/two_timg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sdfsdfsdfs"
+        />
+    <Button
+        android:id="@+id/two_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:drawableBottom="@drawable/qqq"
+        />
+</RelativeLayout>
